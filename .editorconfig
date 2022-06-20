@@ -1,0 +1,19 @@
+# EditorConfig is awesome: http://EditorConfig.org
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = tab
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[**.md]
+indent_size = 2
+indent_style = space
+
+[**.sh]
+shell_variant      = ash
+binary_next_line   = true  # like -bn
+switch_case_indent = true  # like -ci
+space_redirects    = true  # like -sr
+keep_padding       = false # like -kp
